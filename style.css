@@ -1,0 +1,71 @@
+* {
+    scroll-behavior: smooth;
+}
+
+body {
+    margin: 0;
+    background-color: rgb(255, 250, 240);
+    font-family: Arial, sans-serif;
+    font-size: 20px;
+}
+
+header nav ul {
+    display: flex;
+    flex-direction: row;
+    gap: 50px;
+    list-style: none;
+    justify-content: right;
+    font-style: italic;
+    text-decoration: none;
+    align-items: center;
+    flex-shrink: 0;
+    flex-wrap: wrap;
+    padding-right: 50px;
+    /* voor border en achtergrondkleur */
+    background-color: rgb(255, 180, 110);
+    border-radius: 2px;
+    padding: 10px;
+    padding-right: 50px;
+    margin-top: 0px;
+}
+
+header ul a{
+    color: rgb(42, 89, 121);
+    font-size: 30px;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+main {
+  display: flex;
+  flex-direction: column;
+}
+
+main h1 {
+    text-align: center;
+    font-size: 40px;
+    color: rgb(0, 0, 0);
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+section {
+    margin-left: 100px;
+    margin-right: 100px;
+    margin-bottom: 60px;
+    padding: 20px;
+    border: 3px solid rgb(255, 140, 0);
+    border-radius: 8px;
+
+}
+
+footer {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    text-align: center;
+    /* padding: 10px; */
+    position: fixed;
+    width: 90%;
+    bottom: 0;
+}
